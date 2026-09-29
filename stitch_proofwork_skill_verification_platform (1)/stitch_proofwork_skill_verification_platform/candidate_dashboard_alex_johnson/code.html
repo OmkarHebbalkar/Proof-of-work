@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#eff4ff","background":"#f8f9ff","on-tertiary-container":"#009668","inverse-surface":"#213145","on-tertiary-fixed-variant":"#005236","on-primary-fixed":"#131b2e","primary":"#000000","on-secondary-container":"#fffbff","secondary-fixed-dim":"#c3c0ff","on-tertiary":"#ffffff","inverse-on-surface":"#eaf1ff","surface-container":"#e5eeff","on-primary-container":"#7c839b","primary-container":"#131b2e","on-secondary-fixed-variant":"#3323cc","error":"#ba1a1a","on-surface-variant":"#45464d","tertiary":"#000000","primary-fixed-dim":"#bec6e0","surface":"#f8f9ff","secondary-container":"#645efb","primary-fixed":"#dae2fd","on-primary":"#ffffff","surface-variant":"#d3e4fe","error-container":"#ffdad6","tertiary-container":"#002113","on-surface":"#0b1c30","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#002113","inverse-primary":"#bec6e0","surface-dim":"#cbdbf5","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","outline-variant":"#c6c6cd","secondary":"#4b41e1","surface-tint":"#565e74","tertiary-fixed-dim":"#4edea3","on-error":"#ffffff","secondary-fixed":"#e2dfff","on-secondary":"#ffffff","surface-container-highest":"#d3e4fe","on-secondary-fixed":"#0f0069","outline":"#76777d","on-primary-fixed-variant":"#3f465c","tertiary-fixed":"#6ffbbe","on-error-container":"#93000a","on-background":"#0b1c30"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-sm":"0.5rem",gutter:"1.5rem",margin:"2rem","gutter-sm":"1rem","space-2xl":"3rem","space-xs":"0.25rem","margin-mobile":"1rem","space-md":"1rem","space-xl":"2rem","space-lg":"1.5rem"},fontFamily:{"title-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"label-md":["Inter"],"code-sm":["JetBrains Mono"],"title-md":["Inter"],"body-sm":["Inter"],"label-sm":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"title-lg":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-lg":["16px",{lineHeight:"26px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-xl-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.015em",fontWeight:"700"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"code-sm":["12px",{lineHeight:"16px",fontWeight:"400"}],"title-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"18px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"500"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm cursor-pointer"><img alt="ProofWork Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X-p-Qr_YPHCedEvvM7KGwhcXhUOPPZYsNeZhFhXnZjgfIXqGxjDodiYjK-KrZm_XNnJSNNonSsO82CZBLcJ-86YLe5t8DrkfMz5On1mdjdVcelkiR46_Fi9exEuhXf7qTUsKKR52xSQjjxFKfgTH1tZu6_FNI-XE-SAZdYet2V1Vaeu-RwHYi7T1GC7f-ZrH08dxC0o6aA1236tekTfUnbhykx0hCQDPE1HovaUMKZ21TLmc36kq7Jq6Uv"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">ProofWork</span><span class="px-space-xs py-0.5 rounded-DEFAULT bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm tracking-widest uppercase">VERIFIED</span></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs bg-surface-container-low rounded-xl" data-active-classes="bg-secondary-container text-on-secondary-container font-medium rounded-lg"><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="product" href="#">Product</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="marketplace" href="#">Marketplace</a><a aria-current="page" class="px-space-md py-1.5 transition-all bg-secondary-container text-on-secondary-container font-medium rounded-lg" data-path="candidates" href="#">Candidates</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="recruiters" href="#">Recruiters</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="verify-proof" href="#">Verify Proof</a></nav></div><div class="flex items-center gap-space-md flex-1 max-w-md mx-space-sm hidden md:flex"><div class="relative w-full flex items-center"><span class="material-symbols-outlined absolute left-space-sm text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-full h-10 pl-9 pr-14 bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm rounded-lg outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-secondary/20 transition-all" placeholder="Search proofs, skills, rubrics, hashes..." type="text"/><kbd class="absolute right-space-sm px-1.5 py-0.5 bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm rounded">⌘K</kbd></div><a class="hidden lg:flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant whitespace-nowrap transition-colors" data-path="verify-proof" href="#"><span class="material-symbols-outlined text-[16px]">verified</span>Quick Lookup</a></div><div class="flex items-center gap-space-sm"><button aria-label="Notifications" class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface-container-lowest"></span></button><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Candidate Mode:</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Alex Johnson</span><span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span></div><div class="flex items-center gap-space-xs cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-high" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRKA8wtACi1Mx8rVQWhAbpxo8DIjjd7jbMqcDw77BjWuEMXCiGlk9YTAAdZEYaKSWIAm4DuyFEGv8Tj-7wzF4RjuKkvht6UvHidcTUDci9i9AHDDhcuT817UxCv8x0V-Nu2wQJ_XTkeDTvEwiaTVp59U8yMsUXoWjXo7kNM2_PgS2yls9POMT5mMSLpIsEKMGbA4XDtZV8edQSOus5-nA_DS_JQDB1KW_nYrt6wpUT6Sq-B-Y4GdZvuQ"/><span class="material-symbols-outlined text-on-surface-variant text-[16px] hidden sm:inline-block">keyboard_arrow_down</span></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Layout Wrapper: 3-column architectural system -->
+<div class="w-full px-gutter py-space-xl flex flex-col xl:flex-row gap-space-lg items-start">
+<!-- LEFT SIDEBAR NAVIGATION -->
+<aside class="w-full xl:w-64 shrink-0 flex flex-col gap-space-md">
+<!-- Candidate Profile Brief Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex items-center gap-space-sm">
+<div class="relative">
+<img class="w-12 h-12 rounded-full object-cover shadow-inner" data-alt="Close up professional portrait of Alex Johnson, a confident software engineer with soft natural lighting, slate studio background with deep indigo accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUak_QHv7GpMG1inbYvZNqoU-GgZIjWAAdRGC6I1h3gUPwiqOy1kGKNWwvzevyCxJBiO2_wzMuoUEAbsmm1dBn_GwYDUXWOe0alZ_-vjLkaqMLaOs7sbiriVnqZ5W02K17lzbd-wF5xqBvUy2Ooe9TavxU-B-jnXrfmcWEUESU19MdKOBnCGswkwBJi5GbYttoJ5pCiyFy-YhhC2ZTD0NqXpUroEUbiI9j179Roqkf9WC1HdhQLKJWYQ"/>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-on-tertiary-container ring-2 ring-surface-container-lowest"></span>
+</div>
+<div class="min-w-0 flex-1">
+<div class="flex items-center gap-1">
+<span class="font-title-md text-title-md text-on-surface truncate">Alex Johnson</span>
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<span class="font-code-sm text-code-sm text-on-surface-variant block truncate">0x8F92...B409</span>
+</div>
+</div>
+<!-- Navigation Links -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm flex flex-col gap-1">
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg bg-secondary-container text-on-secondary-container font-title-md text-title-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span>Dashboard</span>
+</div>
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest"></span>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">person</span>
+<span>My Profile</span>
+</div>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<span>Challenges</span>
+</div>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">LIVE</span>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+<span>My Submissions</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">verified_user</span>
+<span>Proof Cards</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">12</span>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">fact_check</span>
+<span>Skills &amp; Evidence</span>
+</div>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+<span>Analytics</span>
+</div>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+<span>Saved Challenges</span>
+</div>
+</a>
+<div class="h-px bg-surface-container-high my-space-xs"></div>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">notifications</span>
+<span>Notifications</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-semibold">3</span>
+</a>
+<a class="flex items-center justify-between px-space-md py-2.5 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-body-md text-body-md transition-all" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+<span>Settings</span>
+</div>
+</a>
+</div>
+<!-- Telemetry Health Indicator -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">ProofWork Ledger</span>
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-on-tertiary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container animate-ping"></span>
+            Synced
+          </span>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm font-code-sm text-code-sm text-on-surface-variant flex flex-col gap-1">
+<div class="flex justify-between">
+<span>Block Height:</span>
+<span class="font-semibold text-on-surface">#4,819,203</span>
+</div>
+<div class="flex justify-between">
+<span>Integrity:</span>
+<span class="text-on-tertiary-container font-medium">99.98% Cryptographic</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- MAIN CONTENT AREA -->
+<section class="flex-1 min-w-0 flex flex-col gap-space-xl">
+<!-- Top Banner: System status & alert greeting -->
+<div class="relative overflow-hidden bg-primary-container text-on-primary rounded-xl p-space-lg shadow-md">
+<div class="absolute -right-8 -top-8 w-64 h-64 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm tracking-wider uppercase">Active Session</span>
+<span class="font-code-sm text-code-sm text-on-primary-container">ID: PW-9024-ALX</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary">Welcome back, Alex</h2>
+<p class="font-body-lg text-body-lg text-on-primary-container">
+              You have <span class="text-on-primary font-semibold underline decoration-secondary decoration-2 underline-offset-4">2 pending evaluations</span> and <span class="text-on-primary font-semibold">1 recruiter</span> viewed your Proof Card today.
+            </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="px-space-md py-2.5 bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-on-primary font-title-md text-title-md rounded-lg transition-all flex items-center gap-space-xs backdrop-blur-md">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+              View Audit Log
+            </button>
+<button class="px-space-md py-2.5 bg-secondary hover:bg-on-secondary-fixed-variant text-on-secondary font-title-md text-title-md rounded-lg transition-all shadow-sm flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px]">add_task</span>
+              New Submission
+            </button>
+</div>
+</div>
+</div>
+<!-- Top Stats Grid (4 cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Stat Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Challenges Completed</span>
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-0.5">
+<span class="font-headline-xl text-headline-xl text-on-surface">18</span>
+<div class="flex items-center gap-1 text-on-tertiary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span>+3 this month</span>
+</div>
+</div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Successful Submissions</span>
+<span class="p-2 rounded-lg bg-surface-container-low text-on-tertiary-container">
+<span class="material-symbols-outlined text-[20px]">military_tech</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-0.5">
+<span class="font-headline-xl text-headline-xl text-on-surface">16</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-md text-label-md">
+<span class="font-code-sm text-code-sm font-semibold text-on-surface">88.8%</span>
+<span>pass rate</span>
+</div>
+</div>
+</div>
+<!-- Stat Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Demonstrated Skills</span>
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-0.5">
+<span class="font-headline-xl text-headline-xl text-on-surface">6</span>
+<div class="flex items-center gap-1 text-on-tertiary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>verified competencies</span>
+</div>
+</div>
+</div>
+<!-- Stat Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Active Proof Cards</span>
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary-container">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</span>
+</div>
+<div class="mt-space-md flex flex-col gap-0.5">
+<span class="font-headline-xl text-headline-xl text-on-surface">12</span>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">share</span>
+<span>shareable credentials</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Demonstrated Skills & Verified Evidence -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Demonstrated Skills &amp; Verified Evidence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Telemetry-grounded technical capability scored against normative cohort distributions</p>
+</div>
+<button class="px-space-md py-1.5 bg-surface-container-lowest hover:bg-surface-container-low text-on-surface font-title-md text-title-md rounded-lg shadow-sm flex items-center gap-1 transition-all">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+            Filter Rubrics
+          </button>
+</div>
+<!-- Skill Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Skill 1: Python -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Python</h4>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Runtime &amp; Algorithmic</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                  Demonstrated
+                </span>
+</div>
+<!-- Metric stats row -->
+<div class="grid grid-cols-3 gap-space-xs p-space-sm bg-surface-container-low rounded-lg text-center">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Challenges</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">7</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Successful</span>
+<span class="font-title-md text-title-md text-on-tertiary-container font-bold">6</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Avg Score</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">4.8<span class="text-on-surface-variant text-[11px]">/5</span></span>
+</div>
+</div>
+<!-- Inline Micro Bar Chart -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Cohort Percentile</span>
+<span class="font-semibold text-secondary">Top 4%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary rounded-full" style="width: 96%;"></div>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[14px]">history_edu</span>
+<span>14 cryptographic logs verified</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Hash: c7a1...84e0</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-secondary hover:text-on-secondary text-secondary font-label-md text-label-md transition-colors flex items-center gap-1">
+<span>Inspect Evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Skill 2: Web Development -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">web</span>
+</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Web Development</h4>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Fullstack Architecture</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                  Demonstrated
+                </span>
+</div>
+<!-- Metric stats row -->
+<div class="grid grid-cols-3 gap-space-xs p-space-sm bg-surface-container-low rounded-lg text-center">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Challenges</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">9</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Successful</span>
+<span class="font-title-md text-title-md text-on-tertiary-container font-bold">8</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Avg Score</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">4.9<span class="text-on-surface-variant text-[11px]">/5</span></span>
+</div>
+</div>
+<!-- Inline Micro Bar Chart -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Cohort Percentile</span>
+<span class="font-semibold text-secondary">Top 2%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary rounded-full" style="width: 98%;"></div>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[14px]">commit</span>
+<span>21 commits + 8 recording logs</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Hash: e81b...91ad</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-secondary hover:text-on-secondary text-secondary font-label-md text-label-md transition-colors flex items-center gap-1">
+<span>Inspect Evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Skill 3: Data Analysis -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Data Analysis</h4>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Pipelines &amp; Modeling</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                  Demonstrated
+                </span>
+</div>
+<!-- Metric stats row -->
+<div class="grid grid-cols-3 gap-space-xs p-space-sm bg-surface-container-low rounded-lg text-center">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Challenges</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">4</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Successful</span>
+<span class="font-title-md text-title-md text-on-tertiary-container font-bold">4</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Avg Score</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">4.7<span class="text-on-surface-variant text-[11px]">/5</span></span>
+</div>
+</div>
+<!-- Inline Micro Bar Chart -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Cohort Percentile</span>
+<span class="font-semibold text-secondary">Top 6%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary rounded-full" style="width: 94%;"></div>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[14px]">query_stats</span>
+<span>8 verified execution artifacts</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Hash: a29c...03fb</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-secondary hover:text-on-secondary text-secondary font-label-md text-label-md transition-colors flex items-center gap-1">
+<span>Inspect Evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Skill 4: SQL & Schema Design -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">database</span>
+</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">SQL &amp; Schema Design</h4>
+<span class="font-code-sm text-code-sm text-on-surface-variant">RDBMS &amp; Query Plans</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                  Demonstrated
+                </span>
+</div>
+<!-- Metric stats row -->
+<div class="grid grid-cols-3 gap-space-xs p-space-sm bg-surface-container-low rounded-lg text-center">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Challenges</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">5</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Successful</span>
+<span class="font-title-md text-title-md text-on-tertiary-container font-bold">4</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Avg Score</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">4.6<span class="text-on-surface-variant text-[11px]">/5</span></span>
+</div>
+</div>
+<!-- Inline Micro Bar Chart -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Cohort Percentile</span>
+<span class="font-semibold text-secondary">Top 8%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary rounded-full" style="width: 92%;"></div>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[14px]">table_rows</span>
+<span>11 query execution plans</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Hash: bb40...16df</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-secondary hover:text-on-secondary text-secondary font-label-md text-label-md transition-colors flex items-center gap-1">
+<span>Inspect Evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Skill 5: Technical Communication -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-all group md:col-span-2 lg:col-span-2">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="p-2 rounded-lg bg-surface-container-low text-secondary">
+<span class="material-symbols-outlined text-[20px]">record_voice_over</span>
+</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Technical Communication</h4>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Design Docs &amp; Architecture Walkthroughs</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">star</span>
+                  High Proficiency
+                </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md items-center mt-space-xs">
+<div class="p-space-sm bg-surface-container-low rounded-lg flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Explanations</span>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">6</span>
+<span class="font-body-sm text-body-sm text-on-tertiary-container font-medium">100% Peer Verified</span>
+</div>
+</div>
+<div class="md:col-span-2 flex flex-col gap-1.5">
+<div class="flex justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Clarity, Architecture Rationale, Edge Case Analysis</span>
+<span class="font-semibold text-on-surface">Score: 4.95 / 5.0</span>
+</div>
+<div class="w-full h-2 bg-surface-container rounded-full overflow-hidden flex">
+<div class="h-full bg-secondary rounded-full" style="width: 99%;"></div>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-code-sm text-code-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">mic</span> 4 Audio-code walkthroughs
+                </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">article</span> 2 RFC Whitepapers
+                </span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Proof Certificate: #PC-TC-88914</span>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container hover:bg-secondary hover:text-on-secondary text-secondary font-label-md text-label-md transition-colors flex items-center gap-1">
+<span>Inspect Evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Recent Challenges & Submissions -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Recent Challenges &amp; Submissions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Immutable records of completed task runs and ongoing rubric evaluations</p>
+</div>
+<a class="font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant flex items-center gap-1 transition-colors" href="#">
+<span>View All (18)</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Submission Cards List -->
+<div class="flex flex-col gap-space-sm">
+<!-- Row 1: Web Dev #104 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">devices</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-title-md text-title-md text-on-surface">Web Dev #104: Responsive Landing Page</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+                    Verified Proof Issued
+                  </span>
+</div>
+<div class="flex items-center gap-space-sm font-code-sm text-code-sm text-on-surface-variant">
+<span>Commit: 5a892b1</span>
+<span>•</span>
+<span>Evaluated 2 hours ago</span>
+<span>•</span>
+<span class="text-on-surface font-medium">Rubric v3.2</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-lg self-end md:self-auto">
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rubric Score</span>
+<span class="font-headline-sm text-headline-sm text-on-tertiary-container font-bold">95%</span>
+</div>
+<button class="px-space-md py-2 bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center gap-1">
+<span>View Card</span>
+<span class="material-symbols-outlined text-[18px]">launch</span>
+</button>
+</div>
+</div>
+<!-- Row 2: SQL Query Optimizer #42 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">speed</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-title-md text-title-md text-on-surface">SQL Query Optimizer #42</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                    Verified
+                  </span>
+</div>
+<div class="flex items-center gap-space-sm font-code-sm text-code-sm text-on-surface-variant">
+<span>Execution: 1.4ms (99.4th percentile)</span>
+<span>•</span>
+<span>Yesterday</span>
+<span>•</span>
+<span>PostgreSQL 16</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-lg self-end md:self-auto">
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rubric Score</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">91%</span>
+</div>
+<button class="px-space-md py-2 bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center gap-1">
+<span>View Card</span>
+<span class="material-symbols-outlined text-[18px]">launch</span>
+</button>
+</div>
+</div>
+<!-- Row 3: Python Data Cleaner #18 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">data_thresholding</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-title-md text-title-md text-on-surface">Python Data Cleaner #18</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/10 text-on-tertiary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                    Verified
+                  </span>
+</div>
+<div class="flex items-center gap-space-sm font-code-sm text-code-sm text-on-surface-variant">
+<span>10,000,000 Rows Pipeline</span>
+<span>•</span>
+<span>3 days ago</span>
+<span>•</span>
+<span>Pandas &amp; PyArrow</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-lg self-end md:self-auto">
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rubric Score</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">88%</span>
+</div>
+<button class="px-space-md py-2 bg-surface-container-low hover:bg-secondary hover:text-on-secondary text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center gap-1">
+<span>View Card</span>
+<span class="material-symbols-outlined text-[18px]">launch</span>
+</button>
+</div>
+</div>
+<!-- Row 4: React State Management #88 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start md:items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">sync</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-title-md text-title-md text-on-surface">React State Management #88</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+                    Under AI Rubric Review
+                  </span>
+</div>
+<div class="flex items-center gap-space-sm font-code-sm text-code-sm text-on-surface-variant">
+<span>Telemetry pipeline parsing test suites...</span>
+<span>•</span>
+<span>Submitted 18m ago</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-lg self-end md:self-auto">
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rubric Status</span>
+<span class="font-title-md text-title-md text-secondary font-semibold">Processing...</span>
+</div>
+<button class="px-space-md py-2 bg-surface-container-low text-on-surface-variant font-title-md text-title-md rounded-lg flex items-center gap-1 cursor-not-allowed">
+<span>Inspect Logs</span>
+<span class="material-symbols-outlined text-[18px]">hourglass_top</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RIGHT SIDEBAR / SECONDARY WIDGET -->
+<aside class="w-full xl:w-96 shrink-0 flex flex-col gap-space-lg">
+<!-- Quick Proof Card Preview Widget -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">badge</span>
+<span class="font-title-md text-title-md text-on-surface">Proof Card Preview</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">PUBLIC</span>
+</div>
+<!-- The Actual Micro Card Render -->
+<div class="bg-primary-container text-on-primary rounded-xl p-space-md shadow-md flex flex-col gap-space-md relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-36 h-36 rounded-full bg-secondary/20 blur-2xl pointer-events-none"></div>
+<!-- Proof Card Header -->
+<div class="flex items-start justify-between relative z-10">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Alex Johnson avatar portrait photo with neutral lighting and dark indigo backdrop, wearing minimalist tech casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9h2yIZEyvNKg6Kg_WD3bTr2XJkhNIOiysJRmPmzieY1m-GoFvEZHKQvtUamka7VNR_4POtqDQ8_3vo3be_JgHkNynllAMgFPVOSK05-kRSLpg0NGNHzFW3weiLJxo7BSLFICP_5KuCNZ5EpMeOqJXWlJCTgsxcZobAnKf49aEdCOUzvU-F7qOrTb44593EMBn_GJgiJERldRIqgfDF-tYXw0HhTerogzivReF5soc8zhir7jWW25k-Q"/>
+<div>
+<span class="font-title-md text-title-md text-on-primary block">Alex Johnson</span>
+<span class="font-code-sm text-code-sm text-on-primary-container">Lead Candidate #4019</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-tertiary-container text-[24px]">verified</span>
+</div>
+<!-- Proof Card Artifact Body -->
+<div class="relative z-10 bg-surface-container-lowest/10 rounded-lg p-space-sm flex flex-col gap-1 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-on-primary-container uppercase">Verified Assessment</span>
+<span class="font-title-md text-title-md text-on-primary">Web Dev #104: Responsive Landing Page</span>
+<div class="flex items-center justify-between mt-1 pt-1">
+<div class="flex items-center gap-1">
+<span class="text-on-tertiary-container font-headline-sm text-headline-sm font-bold">95%</span>
+<span class="font-label-sm text-label-sm text-on-primary-container">Score</span>
+</div>
+<span class="px-1.5 py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm">TOP 2% NATIONWIDE</span>
+</div>
+</div>
+<!-- Proof Card Footer Hash -->
+<div class="relative z-10 flex items-center justify-between text-on-primary-container font-code-sm text-code-sm">
+<span>Merkle Root: 0x9c3...a81e</span>
+<span>ProofWork v4</span>
+</div>
+</div>
+<!-- Action Buttons for the Card -->
+<div class="flex flex-col gap-space-xs">
+<button class="w-full py-2.5 px-space-md bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center justify-center gap-space-xs" id="copy-btn">
+<span class="material-symbols-outlined text-[18px]">link</span>
+<span id="copy-text">Copy Verification Link</span>
+</button>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="py-2 px-space-sm bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>LinkedIn</span>
+</button>
+<button class="py-2 px-space-sm bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md rounded-lg transition-colors flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[18px]">code</span>
+<span>GitHub</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Recommended Next Challenges: Advanced -> Expert -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">upgrade</span>
+<h4 class="font-title-md text-title-md text-on-surface">Level Up Path</h4>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold">Web Dev: Adv → Expert</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Complete 2 of these institutional-tier challenges to unlock the Expert Web Engineering Proof badge.</p>
+<div class="flex flex-col gap-space-sm">
+<!-- Challenge Option 1 -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex flex-col gap-space-xs hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex items-start justify-between">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">Micro-Frontend Routing Engine</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">+45 XP</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Design an isolated iframe and module federation orchestrator handling shared state across 3 child apps.</p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-code-sm text-code-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">timer</span> ~3.5 hrs
+              </span>
+<span class="font-label-md text-label-md text-secondary font-semibold group-hover:translate-x-0.5 transition-transform flex items-center">
+                Start Challenge <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</div>
+</div>
+<!-- Challenge Option 2 -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex flex-col gap-space-xs hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex items-start justify-between">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">Streaming SSR with Zero-JS Hydration</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">+60 XP</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Construct an edge-rendered pipeline streaming HTML segments with selective resumability.</p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-code-sm text-code-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">timer</span> ~4 hrs
+              </span>
+<span class="font-label-md text-label-md text-secondary font-semibold group-hover:translate-x-0.5 transition-transform flex items-center">
+                Start Challenge <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</div>
+</div>
+<!-- Challenge Option 3 -->
+<div class="p-space-sm bg-surface-container-low rounded-lg flex flex-col gap-space-xs hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex items-start justify-between">
+<span class="font-title-md text-title-md text-on-surface group-hover:text-secondary transition-colors">WebAssembly Image Filter Pipeline</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">+50 XP</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Compile Rust into Wasm to run convolution matrix transformations on 4K video canvas feeds at 60 FPS.</p>
+<div class="flex items-center justify-between pt-1">
+<span class="font-code-sm text-code-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">timer</span> ~2.5 hrs
+              </span>
+<span class="font-label-md text-label-md text-secondary font-semibold group-hover:translate-x-0.5 transition-transform flex items-center">
+                Start Challenge <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Recruiter Activity Snippet -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Recent Proof View</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Today</span>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm bg-surface-container-low rounded-lg">
+<img class="w-9 h-9 rounded-full object-cover" data-alt="Professional profile icon of an executive technical recruiter in a sleek corporate modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBInacK0C_KxFKRiSzs2-erCjQow7SVl7rcqi9QR7vy12DeIHBI-uic7AtFFiaTJWVeBIkopUBKYVc4Rq6OitTpywdlptHd0qx2YvDq7Cgl7GZ3CapjgobW3epSa3rO1axc3c4AzQYRm8NVjv_UrnLLxa0PrTgHqAqyETviKITWnPjnzrO_nWnVMwrBQFTI0qcbAf0UJO4Yo2C7TAaRagX0a1kVfuWgURLW3kqEvVyxKEjSmh4WVb_j0g"/>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Vanguard Systems</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Inspected SQL Query Proof #42</span>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for Copy Verification Link button
+  const copyBtn = document.getElementById('copy-btn');
+  const copyText = document.getElementById('copy-text');
+  if (copyBtn && copyText) {
+    copyBtn.addEventListener('click', () => {
+      const orig = copyText.textContent;
+      copyText.textContent = 'Copied to Clipboard!';
+      copyBtn.classList.add('bg-secondary', 'text-on-secondary');
+      copyBtn.classList.remove('bg-surface-container-low', 'text-on-surface');
+      setTimeout(() => {
+        copyText.textContent = orig;
+        copyBtn.classList.remove('bg-secondary', 'text-on-secondary');
+        copyBtn.classList.add('bg-surface-container-low', 'text-on-surface');
+      }, 2000);
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.02)] mt-space-2xl"><div class="w-full px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-sm"><img alt="ProofWork Brand Logo" class="h-5 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X-p-Qr_YPHCedEvvM7KGwhcXhUOPPZYsNeZhFhXnZjgfIXqGxjDodiYjK-KrZm_XNnJSNNonSsO82CZBLcJ-86YLe5t8DrkfMz5On1mdjdVcelkiR46_Fi9exEuhXf7qTUsKKR52xSQjjxFKfgTH1tZu6_FNI-XE-SAZdYet2V1Vaeu-RwHYi7T1GC7f-ZrH08dxC0o6aA1236tekTfUnbhykx0hCQDPE1HovaUMKZ21TLmc36kq7Jq6Uv"/><span class="font-title-md text-title-md text-on-surface">ProofWork</span><span class="text-outline-variant">•</span><span>Institutional Telemetry &amp; Authenticated Proofs</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" href="#">Security Protocol</a><a class="hover:text-on-surface transition-colors" href="#">Consensus Ledger</a><a class="hover:text-on-surface transition-colors" href="#">API Spec</a><a class="hover:text-on-surface transition-colors" href="#">Terms</a></div></div></footer></body></html>

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-low":"#eff4ff","background":"#f8f9ff","on-tertiary-container":"#009668","inverse-surface":"#213145","on-tertiary-fixed-variant":"#005236","on-primary-fixed":"#131b2e","primary":"#000000","on-secondary-container":"#fffbff","secondary-fixed-dim":"#c3c0ff","on-tertiary":"#ffffff","inverse-on-surface":"#eaf1ff","surface-container":"#e5eeff","on-primary-container":"#7c839b","primary-container":"#131b2e","on-secondary-fixed-variant":"#3323cc","error":"#ba1a1a","on-surface-variant":"#45464d","tertiary":"#000000","primary-fixed-dim":"#bec6e0","surface":"#f8f9ff","secondary-container":"#645efb","primary-fixed":"#dae2fd","on-primary":"#ffffff","surface-variant":"#d3e4fe","error-container":"#ffdad6","tertiary-container":"#002113","on-surface":"#0b1c30","surface-container-lowest":"#ffffff","on-tertiary-fixed":"#002113","inverse-primary":"#bec6e0","surface-dim":"#cbdbf5","surface-container-high":"#dce9ff","surface-bright":"#f8f9ff","outline-variant":"#c6c6cd","secondary":"#4b41e1","surface-tint":"#565e74","tertiary-fixed-dim":"#4edea3","on-error":"#ffffff","secondary-fixed":"#e2dfff","on-secondary":"#ffffff","surface-container-highest":"#d3e4fe","on-secondary-fixed":"#0f0069","outline":"#76777d","on-primary-fixed-variant":"#3f465c","tertiary-fixed":"#6ffbbe","on-error-container":"#93000a","on-background":"#0b1c30"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-sm":"0.5rem",gutter:"1.5rem",margin:"2rem","gutter-sm":"1rem","space-2xl":"3rem","space-xs":"0.25rem","margin-mobile":"1rem","space-md":"1rem","space-xl":"2rem","space-lg":"1.5rem"},fontFamily:{"title-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"label-md":["Inter"],"code-sm":["JetBrains Mono"],"title-md":["Inter"],"body-sm":["Inter"],"label-sm":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"title-lg":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-lg":["16px",{lineHeight:"26px",letterSpacing:"-0.005em",fontWeight:"400"}],"headline-xl-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.015em",fontWeight:"700"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"code-sm":["12px",{lineHeight:"16px",fontWeight:"400"}],"title-md":["16px",{lineHeight:"24px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-sm":["13px",{lineHeight:"18px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.03em",fontWeight:"500"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm cursor-pointer"><img alt="ProofWork Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X-p-Qr_YPHCedEvvM7KGwhcXhUOPPZYsNeZhFhXnZjgfIXqGxjDodiYjK-KrZm_XNnJSNNonSsO82CZBLcJ-86YLe5t8DrkfMz5On1mdjdVcelkiR46_Fi9exEuhXf7qTUsKKR52xSQjjxFKfgTH1tZu6_FNI-XE-SAZdYet2V1Vaeu-RwHYi7T1GC7f-ZrH08dxC0o6aA1236tekTfUnbhykx0hCQDPE1HovaUMKZ21TLmc36kq7Jq6Uv"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">ProofWork</span><span class="px-space-xs py-0.5 rounded-DEFAULT bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm tracking-widest uppercase">VERIFIED</span></div><nav class="hidden xl:flex items-center gap-space-xs p-space-xs bg-surface-container-low rounded-xl" data-active-classes="bg-secondary-container text-on-secondary-container font-medium rounded-lg"><a aria-current="page" class="px-space-md py-1.5 transition-all bg-secondary-container text-on-secondary-container font-medium rounded-lg" data-path="product" href="#">Product</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="marketplace" href="#">Marketplace</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="candidates" href="#">Candidates</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="recruiters" href="#">Recruiters</a><a class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-body-sm text-body-sm" data-path="verify-proof" href="#">Verify Proof</a></nav></div><div class="flex items-center gap-space-md flex-1 max-w-md mx-space-sm hidden md:flex"><div class="relative w-full flex items-center"><span class="material-symbols-outlined absolute left-space-sm text-on-surface-variant text-[18px] pointer-events-none">search</span><input class="w-full h-10 pl-9 pr-14 bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm rounded-lg outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-secondary/20 transition-all" placeholder="Search proofs, skills, rubrics, hashes..." type="text"/><kbd class="absolute right-space-sm px-1.5 py-0.5 bg-surface-container-high text-on-surface-variant font-code-sm text-code-sm rounded">⌘K</kbd></div><a class="hidden lg:flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant whitespace-nowrap transition-colors" data-path="verify-proof" href="#"><span class="material-symbols-outlined text-[16px]">verified</span>Quick Lookup</a></div><div class="flex items-center gap-space-sm"><button aria-label="Notifications" class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-secondary ring-2 ring-surface-container-lowest"></span></button><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Candidate Mode:</span><span class="font-label-sm text-label-sm text-on-surface font-semibold">Alex Johnson</span><span class="material-symbols-outlined text-on-surface-variant text-[16px]">expand_more</span></div><div class="flex items-center gap-space-xs cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-high" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRKA8wtACi1Mx8rVQWhAbpxo8DIjjd7jbMqcDw77BjWuEMXCiGlk9YTAAdZEYaKSWIAm4DuyFEGv8Tj-7wzF4RjuKkvht6UvHidcTUDci9i9AHDDhcuT817UxCv8x0V-Nu2wQJ_XTkeDTvEwiaTVp59U8yMsUXoWjXo7kNM2_PgS2yls9POMT5mMSLpIsEKMGbA4XDtZV8edQSOus5-nA_DS_JQDB1KW_nYrt6wpUT6Sq-B-Y4GdZvuQ"/><span class="material-symbols-outlined text-on-surface-variant text-[16px] hidden sm:inline-block">keyboard_arrow_down</span></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO STAGE -->
+<section class="relative w-full overflow-hidden pb-space-2xl pt-space-xl">
+<!-- Ambient subtle illumination -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-secondary-fixed/30 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<div class="absolute -top-12 right-12 w-[300px] h-[300px] bg-surface-container-high/60 rounded-full blur-[90px] pointer-events-none -z-10"></div>
+<div class="max-w-7xl mx-auto px-gutter flex flex-col items-center text-center">
+<!-- Institutional Verification Chip -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-lowest shadow-sm mb-space-lg">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">The Standard for Verifiable Competency</span>
+<span class="text-outline-variant">•</span>
+<span class="font-code-sm text-code-sm text-secondary font-medium">PW-LEDGER v2.4</span>
+</div>
+<!-- Tagline & High-Impact Headline -->
+<p class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold mb-space-xs">
+        “Skills are claimed on résumés. Skills are demonstrated on ProofWork.”
+      </p>
+<h1 class="font-headline-xl text-headline-xl text-on-surface max-w-4xl tracking-tight mb-space-md">
+        Don't just claim your skills. <span class="bg-gradient-to-r from-secondary to-primary-container bg-clip-text text-transparent">Prove them.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-space-xl">
+        ProofWork helps candidates demonstrate real-world skills through practical challenges, verified evidence, and transparent AI-assisted evaluation.
+      </p>
+<!-- Primary Action Row -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mb-space-lg w-full">
+<a class="px-space-xl py-3 rounded-lg bg-secondary text-on-secondary font-title-md text-title-md hover:bg-on-secondary-fixed-variant shadow-lg shadow-secondary/20 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center gap-space-xs" href="#challenges">
+<span>Prove Your Skills</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="px-space-xl py-3 rounded-lg bg-surface-container-lowest text-on-surface font-title-md text-title-md hover:bg-surface-container-low shadow-sm transition-all flex items-center gap-space-xs" href="#showcase">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">terminal</span>
+<span>Explore Challenges</span>
+</a>
+</div>
+<!-- Quick Verify Input Chip -->
+<div class="inline-flex items-center gap-space-sm p-1.5 pl-space-md bg-surface-container-lowest rounded-full shadow-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+<span>Verify an ID:</span>
+<span class="px-space-xs py-0.5 bg-surface-container-low text-on-surface font-code-sm text-code-sm rounded">PW-10482</span>
+<button class="px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm hover:opacity-90 transition-opacity" id="quickVerifyBtn">
+          Instant Lookup
+        </button>
+</div>
+<!-- TRANSFORMATION EVIDENCE RIBBON -->
+<div class="w-full mt-space-2xl pt-space-lg">
+<div class="relative w-full bg-surface-container-lowest p-space-md md:p-space-lg rounded-xl shadow-md">
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Authenticity Transformation Pipeline</span>
+<span class="font-code-sm text-code-sm text-on-tertiary-container flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span> LIVE INGESTION
+            </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-sm items-center relative">
+<!-- Step 1 -->
+<div class="p-space-sm bg-surface-container-low rounded-lg text-left flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-error font-medium">Claim 01</span>
+<span class="material-symbols-outlined text-error text-[16px]">close</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface">Résumé Claim</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Self-reported text</span>
+<span class="inline-block px-1.5 py-0.5 mt-1 bg-surface text-error rounded font-label-sm text-label-sm w-max">Unverified</span>
+</div>
+<!-- Arrow Indicator -->
+<div class="hidden md:flex justify-center text-outline">
+<span class="material-symbols-outlined text-[20px] text-secondary">east</span>
+</div>
+<!-- Step 2 & 3 Combined Pipeline Center -->
+<div class="p-space-sm bg-surface-container-high rounded-lg text-left flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-secondary font-medium">Telemetry</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">hourglass_top</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface">Practical Task</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Timed execution sandbox</span>
+<span class="inline-block px-1.5 py-0.5 mt-1 bg-surface-container text-on-surface rounded font-label-sm text-label-sm w-max">Code &amp; Recording</span>
+</div>
+<!-- Arrow Indicator -->
+<div class="hidden md:flex justify-center text-outline">
+<span class="material-symbols-outlined text-[20px] text-secondary">east</span>
+</div>
+<!-- Step 4 Outcome -->
+<div class="p-space-sm bg-surface-container-lowest ring-1 ring-on-tertiary-container/30 rounded-lg text-left flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-tertiary-container font-medium">Consensus #10482</span>
+<span class="material-symbols-outlined text-on-tertiary-container text-[16px]">verified</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface">Proof Card</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Immutable ledger record</span>
+<span class="inline-block px-1.5 py-0.5 mt-1 bg-surface-container-low text-on-tertiary-container font-semibold rounded font-label-sm text-label-sm w-max">95% Verified Score</span>
+</div>
+</div>
+</div>
+</div>
+<!-- ACTIVE HERO INTERACTIVE PROOF CARD PREVIEW -->
+<div class="w-full max-w-5xl mt-space-xl text-left">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl p-space-lg relative overflow-hidden">
+<!-- Top Accent Band -->
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-secondary via-secondary-container to-on-tertiary-container"></div>
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-space-md pb-space-md">
+<div class="flex items-center gap-space-md">
+<img class="w-14 h-14 rounded-full object-cover shadow-sm" data-alt="Headshot of candidate Alex Johnson, professional software developer, smiling with focused expression, soft daylight studio lighting with slate and indigo palette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTkKVtuSLx_-4k_Nb0XluGbcKKCtSVKFVWIgXvMme1EBXsv1eHRbhNrRMKrcST8nrnZyKuRMZpXS5VZwxKt44xGUn2DTCWUFe_LKp6OZuXSuR8_cxkAI4hlzhI2E-XVlYpP7JPlSR12unC67l0GXOPnh07fk-Qd-ETdG8Zo1VqmFaJajc2u37kuMi44zyeIUSfY9Uct0pDEaWRfaYyisHYpPnZYgE03rn_MMUpFeSgDEYOx1A_4Jgc9w"/>
+<div>
+<div class="flex items-center gap-space-xs">
+<h2 class="font-title-lg text-title-lg text-on-surface">Alex Johnson</h2>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-low text-on-tertiary-container font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span> VERIFIED TALENT
+                  </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Challenge #104: Responsive Dashboard with Complex State &amp; Canvas Visualizer</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md self-stretch lg:self-auto justify-between lg:justify-end bg-surface-container-low px-space-md py-2 rounded-lg">
+<div class="text-right">
+<span class="block font-label-sm text-label-sm text-on-surface-variant">COMPOSITE SCORE</span>
+<span class="font-headline-md text-headline-md text-on-surface">95<span class="font-body-sm text-body-sm text-on-surface-variant">/100</span></span>
+</div>
+<div class="w-10 h-10 rounded-full bg-on-tertiary-container/10 flex items-center justify-center text-on-tertiary-container">
+<span class="material-symbols-outlined text-[24px]">grade</span>
+</div>
+</div>
+</div>
+<!-- Breakdown Scores & Telemetry Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md my-space-md">
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md text-on-surface">Execution &amp; Clean Code</span>
+<span class="font-code-sm text-code-sm font-semibold text-secondary">98%</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 98%"></div>
+</div>
+<span class="block mt-2 font-label-sm text-label-sm text-on-surface-variant">Zero runtime warnings • Pure semantic HTML</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md text-on-surface">Problem Solving &amp; Architecture</span>
+<span class="font-code-sm text-code-sm font-semibold text-secondary">94%</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 94%"></div>
+</div>
+<span class="block mt-2 font-label-sm text-label-sm text-on-surface-variant">Modular reactive flow • Edge cases resolved</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md text-on-surface">Speed &amp; Technical Rationale</span>
+<span class="font-code-sm text-code-sm font-semibold text-secondary">93%</span>
+</div>
+<div class="w-full bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 93%"></div>
+</div>
+<span class="block mt-2 font-label-sm text-label-sm text-on-surface-variant">Completed in 42m (Avg 65m) • 2m walkthrough</span>
+</div>
+</div>
+<!-- Bottom Evidence Footprint -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-sm bg-surface-container-lowest text-on-surface-variant font-code-sm text-code-sm">
+<div class="flex items-center gap-space-md">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-on-tertiary-container">task_alt</span> 14/14 Automated Tests Passed</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px] text-on-tertiary-container">videocam</span> Walkthrough Loom Verified</span>
+<span class="hidden sm:inline">SHA: <span class="text-on-surface">e9a8f23...7b4c</span></span>
+</div>
+<button class="text-secondary font-label-md text-label-md hover:underline flex items-center gap-1">
+              Inspect Raw Logs &amp; Video <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: WHY PROOFWORK? -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Institutional Grade Verification</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Why ProofWork?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Resumes have deteriorated into keyword-stuffed claims. ProofWork rebuilds mutual trust between engineering talent and elite hiring squads.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">description</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-space-xs">Résumés show claims</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Self-reported buzzwords are trivially inflated and increasingly AI-generated. They offer zero proof of how someone actually designs and debugs.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm text-error font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span> Unauditable Signal
+          </div>
+</div>
+<!-- Card 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary-container/10 flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">code</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-space-xs">Challenges show ability</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Rigorous, timed, real-world technical tasks in sandboxed environments. Candidates build functional components rather than answering trivia.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm text-secondary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> True Execution Baseline
+          </div>
+</div>
+<!-- Card 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-space-xs">Evidence builds trust</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Video recordings, git history diffs, and problem-solving rationales are inspectable directly by technical hiring teams.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm text-on-tertiary-container font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span> 100% Verifiable Artifacts
+          </div>
+</div>
+<!-- Card 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary-container/10 flex items-center justify-center text-secondary mb-space-md">
+<span class="material-symbols-outlined text-[24px]">rule</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-space-xs">Transparent evaluation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Auditable scoring rubrics without hidden black-box decisions. Candidates and recruiters see the exact benchmark criteria side-by-side.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm text-secondary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span> Zero Black Boxes
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: HOW PROOFWORK WORKS (5 STEPS) -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Step-by-step Telemetry</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">How ProofWork Works</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-space-sm md:mt-0">
+          From sandbox prompt to immutable credential in under two hours.
+        </p>
+</div>
+<!-- 5 Steps Flow Bento / Grid -->
+<div class="grid grid-cols-1 md:grid-cols-5 gap-space-md">
+<!-- Step 1 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-code-sm text-code-sm text-secondary font-bold">01</span>
+<h3 class="font-title-md text-title-md text-on-surface mt-space-sm mb-space-xs">Choose a Challenge</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Select standard industry tasks across Frontend, Backend, Systems, or Data.</p>
+</div>
+<div class="mt-space-lg">
+<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant font-code-sm text-code-sm">240+ Benchmarks</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-code-sm text-code-sm text-secondary font-bold">02</span>
+<h3 class="font-title-md text-title-md text-on-surface mt-space-sm mb-space-xs">Real-Time Workspace</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Work in a provisioned browser container with full developer toolsets and unit test suites.</p>
+</div>
+<div class="mt-space-lg">
+<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant font-code-sm text-code-sm">Zero Setup IDE</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-code-sm text-code-sm text-secondary font-bold">03</span>
+<h3 class="font-title-md text-title-md text-on-surface mt-space-sm mb-space-xs">Submit Evidence</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Deliver functional code, micro-walkthrough video, and architectural rationale.</p>
+</div>
+<div class="mt-space-lg">
+<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant font-code-sm text-code-sm">Multimodal Artifacts</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-code-sm text-code-sm text-secondary font-bold">04</span>
+<h3 class="font-title-md text-title-md text-on-surface mt-space-sm mb-space-xs">AI Rubric Evaluation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Objective rubric evaluation across Accuracy, Code Quality, and Problem Solving.</p>
+</div>
+<div class="mt-space-lg">
+<span class="px-2 py-1 rounded bg-surface-container-low text-on-surface-variant font-code-sm text-code-sm">Calibrated Rubrics</span>
+</div>
+</div>
+<!-- Step 5 -->
+<div class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-code-sm text-code-sm text-on-tertiary-container font-bold">05</span>
+<h3 class="font-title-md text-title-md text-on-surface mt-space-sm mb-space-xs">Immutable Proof Card</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Receive a permanent ledger link and cryptographic ID to embed on LinkedIn or send to teams.</p>
+</div>
+<div class="mt-space-lg">
+<span class="px-2 py-1 rounded bg-surface-container-low text-on-tertiary-container font-code-sm text-code-sm">Instant Credential</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: CANDIDATES VS RECRUITERS DUAL SHOWCASE -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Engineered For Both Sides</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Proof Over Promises</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- For Candidates Panel -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded-full bg-surface-container-low text-secondary font-label-md text-label-md mb-space-md">
+<span class="material-symbols-outlined text-[16px]">badge</span> For Engineers &amp; Builders
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Bypass recruiter gatekeepers with indisputable proof</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+              Tired of sending 200 resumes into ATS voids? Complete one verified challenge and send engineering managers an interactive inspection link that proves your capability instantly.
+            </p>
+<ul class="space-y-space-sm mb-space-lg font-body-md text-body-md text-on-surface">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check</span>
+<span>Own your verified portfolio forever across job transitions</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check</span>
+<span>Stand out purely on code craftsmanship, not elite pedigree</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">check</span>
+<span>Direct visibility to verified hiring managers actively scouting talent</span>
+</li>
+</ul>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center gap-space-md">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Candidate testimonial portrait of a female software architect working on laptop in a brightly lit modern open office with plants and subtle architectural lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS4-yMR40GadcvXHMmeBEj7gWdRzJhwyoo066xs6QmTZ30tFNg3Re2dIcngjG1J0hmGqqgjbLYihOq8Q1HzTcRa_1MsyjvnQOzzXqqVBIx4sPntdGVuVf4d5BRuMlg2QvJCqLcy0jI8JY2FZMESsdvpmamFEdfcqviiNuzlk4Ypulp3gsoRQKGs0NRBP495x9BTIvE5s8Y7T8JBeLLPtEm56dU9BSKBRGtuwUDHnd6I5JHLdAwuvjyZQ"/>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface italic">“I skipped 3 rounds of generic live coding. The VP inspected my Proof Card and made an offer.”</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Maya Patel • Senior Frontend Eng</span>
+</div>
+</div>
+</div>
+<!-- For Recruiters Panel -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-space-sm py-1 rounded-full bg-surface-container-low text-secondary font-label-md text-label-md mb-space-md">
+<span class="material-symbols-outlined text-[16px]">corporate_fare</span> For Hiring Teams &amp; CTOs
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-sm">Zero interview churn. Hire strictly verified builders</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+              Eliminate resume fraud and time wasted on candidates who cannot build. Review pre-evaluated candidates with granular rubrics, full commit histories, and recorded code explanations.
+            </p>
+<ul class="space-y-space-sm mb-space-lg font-body-md text-body-md text-on-surface">
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">done_all</span>
+<span>Cut engineering interview hours by 68%</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">done_all</span>
+<span>Auditable AI scoring calibrated against top 5% industry benchmarks</span>
+</li>
+<li class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">done_all</span>
+<span>Fast 1-click verification verification endpoint for HR databases</span>
+</li>
+</ul>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg flex items-center gap-space-md">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Corporate headshot of tech recruiter and hiring manager in minimalist workspace with monitor showing engineering candidate scores and rubric reports" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZVd3bF3tOfelWNN9FZTfk7rkHYS1xVyyhbCssPumXZbRsaJe3CIAlyF0AafQAI4Vmjpy_FwKgkFLUuHWuUP6VN-DNwAkiUrxQkOiKb15ar69Rc-_bn4TPFBiN3jpBil06rULtU7b-3VPMxzkU6faABTUoiKasuoJVcl09QmZhQRGBaLUQFBzKf72BmJh3HdkibERw8UFQZEdU-kv6VunVnX9q_u8CYK46Rn8LSBzg1oV6v3TPdUFGLQ"/>
+<div>
+<p class="font-body-sm text-body-sm text-on-surface italic">“We replaced our first two filter rounds with Proof Cards. Time-to-offer dropped from 34 days to 9.”</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">David Vance • VP of Talent, ScaleCore</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: PROOF CARD SHOWCASE (PW-10482) -->
+<section class="w-full py-space-2xl bg-surface" id="showcase">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Cryptographic Certificate Architecture</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Inspect Proof Card PW-10482</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Every completed challenge yields an immutable, publicly inspectable credential containing test traces, code metrics, and reviewer consensus.
+        </p>
+</div>
+<!-- Realistic Proof Card Mockup -->
+<div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-xl p-space-xl relative">
+<!-- Floating Status Pill -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-lg mb-space-lg bg-surface-container-lowest">
+<div class="flex items-center gap-space-sm">
+<span class="w-3 h-3 rounded-full bg-on-tertiary-container animate-ping"></span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Official Proofwork Ledger Record</span>
+</div>
+<span class="font-code-sm text-code-sm bg-surface-container-low px-space-sm py-1 rounded text-on-surface">CERTIFICATE ID: PW-10482-SYS</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl">
+<!-- Left: QR Code & Hash Details -->
+<div class="flex flex-col items-center justify-center p-space-lg bg-surface-container-low rounded-xl text-center">
+<!-- Simulated QR Code SVG -->
+<div class="w-36 h-36 bg-surface-container-lowest p-2 rounded-lg shadow-sm mb-space-sm flex items-center justify-center">
+<svg class="w-32 h-32 text-on-surface" fill="currentColor" viewbox="0 0 100 100">
+<!-- QR Code Pattern -->
+<rect fill="currentColor" height="25" width="25" x="10" y="10"></rect>
+<rect fill="#eff4ff" height="15" width="15" x="15" y="15"></rect>
+<rect fill="currentColor" height="9" width="9" x="18" y="18"></rect>
+<rect fill="currentColor" height="25" width="25" x="65" y="10"></rect>
+<rect fill="#eff4ff" height="15" width="15" x="70" y="15"></rect>
+<rect fill="currentColor" height="9" width="9" x="73" y="18"></rect>
+<rect fill="currentColor" height="25" width="25" x="10" y="65"></rect>
+<rect fill="#eff4ff" height="15" width="15" x="15" y="70"></rect>
+<rect fill="currentColor" height="9" width="9" x="18" y="73"></rect>
+<circle cx="45" cy="20" fill="currentColor" r="4"></circle>
+<circle cx="50" cy="35" fill="currentColor" r="3"></circle>
+<rect fill="currentColor" height="10" width="20" x="40" y="45"></rect>
+<rect fill="currentColor" height="20" width="10" x="65" y="45"></rect>
+<rect fill="currentColor" height="15" width="15" x="40" y="65"></rect>
+<circle cx="80" cy="80" fill="currentColor" r="6"></circle>
+</svg>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1">SCAN TO VERIFY PUBLIC KEY</span>
+<span class="font-code-sm text-code-sm text-secondary break-all">0x74f1...99c2b0</span>
+</div>
+<!-- Middle & Right: Metadata & Rubric Badges -->
+<div class="md:col-span-2 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Candidate</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Alex Johnson</h3>
+</div>
+<div class="px-space-sm py-1 rounded bg-surface-container-low text-on-tertiary-container font-label-md text-label-md font-bold">
+                  VERIFIED TOP 4%
+                </div>
+</div>
+<div class="mt-space-md grid grid-cols-2 gap-space-sm font-body-sm text-body-sm">
+<div>
+<span class="text-on-surface-variant block font-label-sm text-label-sm">CHALLENGE</span>
+<span class="text-on-surface font-semibold">Web Dev #104: Responsive Core</span>
+</div>
+<div>
+<span class="text-on-surface-variant block font-label-sm text-label-sm">TIMESTAMP</span>
+<span class="text-on-surface font-semibold">2025-02-24 • 14:22:04 UTC</span>
+</div>
+<div>
+<span class="text-on-surface-variant block font-label-sm text-label-sm">RUNTIME ENV</span>
+<span class="text-on-surface font-semibold">Node 20 • TypeScript 5.3</span>
+</div>
+<div>
+<span class="text-on-surface-variant block font-label-sm text-label-sm">AI CONSENSUS</span>
+<span class="text-on-surface font-semibold">Strict Pass (95/100)</span>
+</div>
+</div>
+<!-- Rubric Badges -->
+<div class="mt-space-lg">
+<span class="text-on-surface-variant block font-label-sm text-label-sm mb-space-xs">EVALUATED RUBRIC BADGES</span>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Responsive Layout Mastery
+                  </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Semantic Accessibility (A11y)
+                  </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Zero CSS Layout Shift
+                  </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-low text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Test Coverage &gt; 90%
+                  </span>
+</div>
+</div>
+</div>
+<!-- Action buttons inside card -->
+<div class="mt-space-lg pt-space-md flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-code-sm text-code-sm text-on-surface-variant">Validated by 3 Consensus Nodes</span>
+<div class="flex gap-space-xs">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">download</span> Export PDF
+                </button>
+<button class="px-space-md py-1.5 rounded-lg bg-secondary text-on-secondary font-label-md text-label-md hover:opacity-90 transition-opacity flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">share</span> Share Proof Link
+                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: PRICING PLANS -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Predictable Transparency</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Plans for Builders &amp; Teams</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Free for candidates to prove their primary abilities. Scale-ready plans for high-velocity recruiting squads.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Tier 1: Candidate Free -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Candidate Free</span>
+<div class="mt-space-md mb-space-lg">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">$0</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ forever</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">For developers and creators looking to authenticate core proficiencies.</p>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface mb-space-lg">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> 3 standard verified challenges</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Public Proof Card link</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Basic AI rubric analysis</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> 1-year cryptographic retention</li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-title-md text-title-md transition-colors">
+            Get Started Free
+          </button>
+</div>
+<!-- Tier 2: Recruiter Starter -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Recruiter Starter</span>
+<div class="mt-space-md mb-space-lg">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">$149</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ month</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">For boutique agencies and startups vetting specialized tech hires.</p>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface mb-space-lg">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Up to 25 verified inspects/mo</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Full code diff &amp; Loom playback</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Automated candidate invitations</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Standard ATS webhooks</li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-title-md text-title-md transition-colors">
+            Start Free Trial
+          </button>
+</div>
+<!-- Tier 3: Professional (Highlighted) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md flex flex-col justify-between relative ring-2 ring-secondary">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 px-space-sm py-0.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
+            Most Popular
+          </div>
+<div>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Professional</span>
+<div class="mt-space-md mb-space-lg">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">$399</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ month</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">For high-growth scale-ups running simultaneous hiring loops.</p>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface mb-space-lg">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Unlimited candidate verifications</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Custom bespoke company challenges</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Direct talent marketplace search</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Dedicated account strategist</li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-lg bg-secondary text-on-secondary hover:bg-on-secondary-fixed-variant font-title-md text-title-md shadow-md transition-all">
+            Upgrade to Pro
+          </button>
+</div>
+<!-- Tier 4: Campus & Institutions -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Campus Plan</span>
+<div class="mt-space-md mb-space-lg">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">Custom</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ institutional</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-lg">For universities, coding bootcamps, and vocational workforce programs.</p>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface mb-space-lg">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Cohort batch issuance</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Department-wide rubric management</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Employer partner talent portal</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-[16px]">check</span> Custom domain credential routing</li>
+</ul>
+</div>
+<button class="w-full py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-title-md text-title-md transition-colors">
+            Contact Academic Team
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: CALL TO ACTION BOTTOM BANNER -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="bg-primary-container rounded-xl p-space-xl text-on-primary relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-space-xl">
+<div class="relative z-10 max-w-xl">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider font-semibold">Start In 5 Minutes</span>
+<h2 class="font-headline-lg text-headline-lg text-on-primary mt-1">Ready to let your real code speak for you?</h2>
+<p class="font-body-md text-body-md text-on-primary-container mt-space-xs">
+            Join over 42,000 engineers and 600 verified employers building on a foundation of cryptographic proof instead of buzzwords.
+          </p>
+</div>
+<div class="relative z-10 flex flex-wrap gap-space-sm">
+<button class="px-space-xl py-3 rounded-lg bg-secondary text-on-secondary font-title-md text-title-md hover:bg-on-secondary-fixed-variant transition-all shadow-md">
+            Start Free Challenge
+          </button>
+<button class="px-space-xl py-3 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-on-primary font-title-md text-title-md transition-all">
+            Schedule Recruiter Demo
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- JAVASCRIPT FOR INTERACTIVE DEMO ELEMENTS -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const quickVerifyBtn = document.getElementById('quickVerifyBtn');
+      if (quickVerifyBtn) {
+        quickVerifyBtn.addEventListener('click', () => {
+          const showcase = document.getElementById('showcase');
+          if (showcase) {
+            showcase.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.02)] mt-space-2xl"><div class="w-full px-gutter py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-sm"><img alt="ProofWork Brand Logo" class="h-5 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X-p-Qr_YPHCedEvvM7KGwhcXhUOPPZYsNeZhFhXnZjgfIXqGxjDodiYjK-KrZm_XNnJSNNonSsO82CZBLcJ-86YLe5t8DrkfMz5On1mdjdVcelkiR46_Fi9exEuhXf7qTUsKKR52xSQjjxFKfgTH1tZu6_FNI-XE-SAZdYet2V1Vaeu-RwHYi7T1GC7f-ZrH08dxC0o6aA1236tekTfUnbhykx0hCQDPE1HovaUMKZ21TLmc36kq7Jq6Uv"/><span class="font-title-md text-title-md text-on-surface">ProofWork</span><span class="text-outline-variant">•</span><span>Institutional Telemetry &amp; Authenticated Proofs</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" href="#">Security Protocol</a><a class="hover:text-on-surface transition-colors" href="#">Consensus Ledger</a><a class="hover:text-on-surface transition-colors" href="#">API Spec</a><a class="hover:text-on-surface transition-colors" href="#">Terms</a></div></div></footer></body></html>
